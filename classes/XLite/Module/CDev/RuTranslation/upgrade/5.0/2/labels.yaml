@@ -1,0 +1,160 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data: language labels (RU)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Activate key", translations: [{ code: 'ru', label: "Активировать лицензию" }] }
+  - { name: 'Add your _products_', translations: [{ code: 'ru', label: 'Добавьте свои <a href="{{URL}}">товары</a>' }] }
+  - { name: "Category info", translations: [{ code: ru, label: "Информация о категории" }] }
+  - { name: 'Choose _payment methods_', translations: [{ code: 'ru', label: 'Настройте <a href="{{URL}}">способы оплаты</a>' }] }
+  - { name: 'Configure _shipping methods_', translations: [{ code: 'ru', label: 'Настройте <a href="{{URL}}">способы доставки</a>' }] }
+  - { name: 'Anonymous Customer', translations: [{ code: 'ru', label: 'Анонимный покупатель' }] }
+  - { name: 'Anonymous Customer, _Registered User with the same email_', translations: [{ code: 'ru', label: 'Анонимный покупатель, <a href="{{URL}}">Зарегестрированный покупатель с таким же электронным адресом</a>' }] }
+  - { name: 'Registered Customer', translations: [{ code: 'ru', label: 'Зарегестрированный покупатель' }] }
+  - { name: 'Registered Customer, _Anonymous Customer with the same email_', translations: [{ code: 'ru', label: 'Зарегестрированный покупатель, <a href="{{URL}}">Анонимный покупатель с таким же электронным адресом</a>' }] }
+  - { name: 'The user will be registered; a password will be sent to the user via email', translations: [{ code: 'ru', label: 'Пользователь будет зарегестрирован; пароль будет отослан ему на электронный адрес' }] }
+  - { name: 'Merge with Registered', translations: [{ code: 'ru', label: 'Объеденить с зарегестрированным' }] }
+  - { name: 'Newest first', translations: [{ code: 'ru', label: 'По новизне' }] }
+  - { name: 'Mutual link', translations: [{ code: 'ru', label: 'Обоюдная связь' }] }
+  - { name: 'Default-sort-option', translations: [{ code: 'ru', label: 'Мы рекомендуем' }] }
+  - { name: 'Price-sort-option', translations: [{ code: 'ru', label: 'По цене' }] }
+  - { name: 'Name-sort-option', translations: [{ code: 'ru', label: 'По названию' }] }
+  - { name: 'Edit', translations: [{ code: ru, label: 'Изменить' }] }
+  - { name: 'Stock', translations: [{ code: 'ru', label: 'В наличии' }] }
+  - { name: '_X_ item', translations: [{ code: 'ru', label: '<div class="minicart-items-number">{{count}}</div> <div class="minicart-items-text">позиция</div>' }] }
+  - { name: '_X_ items', translations: [{ code: 'ru', label: '<div class="minicart-items-number">{{count}}</div> <div class="minicart-items-text">позиций</div>' }] }
+  - { name: 'Manage category (X)', translations: [{ code: ru, label: 'Управление {{category_name}} категорией' }] }
+  - { name: 'Subcategories for', translations: [{ code: ru, label: 'Подкатегории для' }] }
+  - { name: 'Select products from the list', translations: [{ code: ru, label: 'Выберите товары из списка' }] }
+  - { name: 'Classes & attributes', translations: [{ code: ru, label: 'Классы и атрибуты' }] }
+  - { name: 'module version X is not equal to the core one (Y)', translations: [{ code: 'ru', label: 'версия модуля "{{module_version}}" не соответствует версии ядра ("{{core_version}}")' }] }
+  - { name: 'Please choose the appropriate action', translations: [{ code: 'ru', label: 'Пожалуйста, выберите соответствующее действие' }] }
+  - { name: 'Product-Specific', translations: [{ code: 'ru', label: 'Специальные для данного продукта' }] }
+  - { name: 'Product-Specific attributes', translations: [{ code: 'ru', label: 'Атрибуты cпециальные для данного продукта' }] }
+  - { name: 'Root categories', translations: [{ code: 'ru', label: 'Категории верхнего уровня' }] }
+  - { name: 'Setup _address zones_ and _taxes_', translations: [{ code: 'ru', label: 'Настройте <a href="{{URL1}}">зоны доставки</a> и <a href="{{URL2}}">налоги</a>' }] }
+  - { name: 'Specify your _store information_', translations: [{ code: 'ru', label: 'Укажите <a href="{{URL}}">информацию о магазине</a>' }] }
+  - { name: 'trying to install a non-marketplace module: X', translations: [{ code: 'ru', label: 'попытка установить непроверенный модуль: "{{name}}"' }] }
+  - { name: 'unable to add module entry to the installation list: X', translations: [{ code: 'ru', label: 'невозможно добавить модуль в список установки: "{{path}}"' }] }
+  - { name: 'The database stores different version of the custom changes.', translations: [{ code: 'ru', label: 'В базе данных хранится другая версия пользовательского кода.' }] }
+  - { name: 'Review it.', translations: [{ code: 'ru', label: 'Просмотреть её.' }] }
+  - { name: 'Restore this version', translations: [{ code: 'ru', label: 'Восстановить эту версию' }] }
+  - { name: 'X item', translations: [{ code: 'ru', label: '{{count}} элемент' }] }
+  - { name: 'X item available', translations: [{ code: 'ru', label: '{{count}} доступно' }] }
+  - { name: 'X item in bag', translations: [{ code: 'ru', label: '{{count}} товар в корзине' }] }
+  - { name: 'You cannot choose this product', translations: [{ code: 'ru', label: 'Данный продукт не может быть выбран' }] }
+  - { name: 'Your shopping bag - X item', translations: [{ code: 'ru', label: 'Товаров в Вашей корзине: {{count}}' }] }
+  - { name: 'The profiles have been merged', translations: [{ code: ru, label: 'Профили были объеденены' }] }
+  - { name: "The profile has been registered. The password has been sent to the user's email address", translations: [{ code: ru, label: "Профиль был зарегестрирован. Пароль будет выслан на email пользователя" }] }
+
+  - { name: 'Related products', translations: [{ code: ru, label: 'Связанные товары' }] }
+  - { name: 'Related products page', translations: [{ code: ru, label: 'Связанные товары' }] }
+  - { name: 'The product SKU#"X" is already set as related for the product', translations: [{ code: ru, label: 'Товар с кодом #{{SKU}} уже связан с текущим' }] }
+  - { name: 'Add related products', translations: [{ code: ru, label: 'Добавить связь' }] }
+  - { name: "a2cp-source-code-REL", translations: [{ code: ru, label: "Связанные товары (модуль Related Products)" }] }
+
+  - { name: "Existing Customer?", translations: [{ code: ru, label: "У вас есть учетная запись?" }] }
+  - { name: "New to our store?", translations: [{ code: ru, label: "Первый раз в нашем магазине?" }]}
+
+  - { name: "Use existing account from", translations: [{ code: ru, label: "Используйте существующую учетную запись в" }] }
+  - { name: "Or use your social account", translations: [{ code: ru, label: "Или используйте вашу учетную запись в социальной сети" }] }
+  - { name: "Or sign in the classic way", translations: [{ code: ru, label: "Или войдите используя учетную запись в нашем магазине" }] }
+  - { name: "Or sign in with", translations: [{ code: ru, label: "Или войдите используя" }] }
+  - { name: "Sign in with", translations: [{ code: ru, label: "Вход используя" }] }
+  - { name: "Profile is disabled", translations: [{ code: ru, label: "Учетная запись отключена" }] }
+  - { name: "We were unable to process this request", translations: [{ code: ru, label: "Мы не смогли обработать запрос" }] }
+  - { name: "Register with social links or go to checkout as a New customer", translations: [{ code: ru, label: "Создайте учетную запись используя {{social links}} <br /> или продолжите оплату как новый пользователь" }] }
+  - { name: "Go to checkout as a New customer", translations: [{ code: ru, label: "Продолжите оплату как новый пользователь" }]}
+
+  - { name: "a2cp-source-code-R", translations: [{ code: ru, label: "Случайный набор товаров" }] }
+  - { name: "Install additional modules to add more product sources", translations: [{ code: ru, label: "Чтобы получить больше источников товаров, установите дополнительные модули: {{list}}" }] }
+  - { name: "This product has been added to you bag", translations: [{ code: ru, label: "Этот товар добавлен в корзину" }] }
+  - { name: "Please choose the sources of products that will be displayed in the 'Customer also bought' section of the 'Add to Cart' popup dialog and set the priority of sources.", translations: [{ code: ru, label: "Выберите источники товаров, отображаемых в блоке рекомендуемых товаров в диалоге 'Товар добавлен в корзину' и укажите порядок применения источников." }] }
+  - { name: "Add to Cart Popup module settings", translations: [{ code: ru, label: "Настройки модуля 'Add to Cart Popup'" }] }
+  - { name: "Add to Cart popup module settings have been updated.", translations: [{ code: ru, label: "Настройки модуля 'Add to Cart popup' сохранены." }] }
+  - { name: "Adds a promotional popup dialog that is displayed after a customer adds a product to cart.", translations: [{ code: ru, label: "Добавляет всплывающий диалог со списком рекомендуемых товаров, отображаемый после добавления товара в корзину." }] }
+  - { name: "Product source", translations: [{ code: ru, label: "Источник товаров" }] }
+  - { name: "Customers also bought", translations: [{ code: ru, label: "Рекомендуемые товары" }] }
+  - { name: "Random products", translations: [{ code: ru, label: "Случайные товары" }] }
+  - { name: "This option is ignored as 'Add to Cart Popup' module is installed and enabled.", translations: [{ code: ru, label: "Эта опция игнорируется, так как включен модуль 'Add to Cart Popup'." }] }
+  - { name: "a2cp-source-code-PAB", translations: [{ code: ru, label: "Покупатели, купившие этот товар, также покупали... (модуль Product Advisor)" }] }
+
+  - { name: "No Phar extension for PHP error", translations: [{ code: ru, label: "PHP <a href='//php.net/phar' target='_blank'>.phar</b> расширение отключено на вашем хостинге. Узнайте, как его настроить в <a href='//kb.x-cart.com/display/XDD/Setting+up+.phar' target='_blank'>нашей документации</a>." }] }
+  - { name: "No Curl extension for PHP error", translations: [{ code: ru, label: "PHP cURL расширение отключено на вашем хостинге. Узнайте, как его настроить в <a href='//kb.x-cart.com/display/XDD/Setting+up+cURL' target='_blank'>нашей документации</a>." }] }
+  - { name: "No OpenSSL extension for PHP error", translations: [{ code: ru, label: "PHP openSSL расширение отключено на вашем хостинге. Узнайте, как его настроить в <a href='//kb.x-cart.com/display/XDD/Setting+up+openSSL' target='_blank'>нашей документации</a>." }] }
+  - { name: "SSL Error", translations: [{ code: ru, label: "На вашем хостинге не настроен SSL сертификат. Запросите установку и настройку SSL сертификата отделу технической поддержки вашего хостинга или создайте самозаверенный сертификат согласно с <a href='//kb.x-cart.com/display/XDD/Creating+self-signed+SSL+certificate' target='_blank'>нашей документацией</a>." }] }
+  - { name: "Timeout error", translations: [{ code: ru, label: "В предыдущем сеансе связи не было установлено соединение с Маркетплейсом." }] }
+  - { name: "cURL error", translations: [{ code: ru, label: "cURL возвратил код ошибки: {{error code}} {{error message}}" }] }
+  - { name: "After the problem has been fixed, try to connect again.", translations: [{ code: ru, label: "<a href='{{clear_cache}}'>Повторите</a> соединение после того проблема будет исправлена." }] }
+
+  - { name: "Sage Pay vendor name", translations: [{ code: ru, label: "Vendor name" }] }
+  - { name: "Sage Pay processing mode", translations: [{ code: ru, label: "Режим обработки платежей" }] }
+  - { name: "Sage Pay password", translations: [{ code: ru, label: "Пароль для шифрования платежей" }] }
+  - { name: "Sage pay invoice number prefix", translations: [{ code: ru, label: "Префикс для номера заказа" }] }
+  - { name: "Sage Pay pricing currency", translations: [{ code: ru, label: "Валюта" }] }
+  - { name: "Sage Pay test mode", translations: [{ code: ru, label: "Тестовый режим" }] }
+  - { name: "Sage Pay real transaction", translations: [{ code: ru, label: "Реальные платежи" }] }
+
+  - { name: "Require to change password on next log in", translations: [{ code: ru, label: "Требуется изменить пароль при следующем входе" }] }
+  - { name: "Change password", translations: [{ code: ru, label: "Измените ваш пароль" }] }
+  - { name: "Admin has requested a change of password for your account. Please change the password before you proceed.", translations: [{ code: ru, label: "Для вашей учетной записи была запрошена принудительная смена пароля. Пожалуйста, смените пароль." }] }
+  - { name: "Personal info: The new password must not coincide with the current password for your account.", translations: [{ code: ru, label: "Новый пароль должен отличаться от текущего пароля вашей учетной записи." }] }
+  - { name: 'X stars_5', translations: [{ code: 'ru', label: '{{count}} баллов' }] }
+  - { name: 'X stars_4', translations: [{ code: 'ru', label: '{{count}} балла' }] }
+  - { name: 'X stars_3', translations: [{ code: 'ru', label: '{{count}} балла' }] }
+  - { name: 'X stars_2', translations: [{ code: 'ru', label: '{{count}} балла' }] }
+  - { name: 'X star_1', translations: [{ code: 'ru', label: '{{count}} балл' }] }
+  - { name: 'Product', translations: [{ code: 'ru', label: 'Товар' }] }
+  - { name: 'Any rating', translations: [{ code: 'ru', label: 'Любая оценка' }] }
+  - { name: 'Reviews for product', translations: [{ code: 'ru', label: 'Отзывы о "{{product}}"' }] }
+  - { name: 'Product reviews', translations: [{ code: 'ru', label: 'Отзывы о товаре' }] }
+  - { name: 'Products reviews', translations: [{ code: 'ru', label: 'Отзывы о товарах' }] }
+  - { name: 'Add review', translations: [{ code: 'ru', label: 'Добавить отзыв' }] }
+  - { name: 'Edit review', translations: [{ code: 'ru', label: 'Изменить отзыв' }] }
+  - { name: 'Approve review', translations: [{ code: 'ru', label: 'Одобрить отзыв' }] }
+  - { name: 'Review has been created', translations: [{ code: 'ru', label: 'Отзыв был создан' }] }
+  - { name: 'Review has been deleted', translations: [{ code: 'ru', label: 'Отзыв был удален' }] }
+  - { name: 'Review has not been created since product is not found', translations: [{ code: 'ru', label: 'Отзыв не создан, так как товар не найден' }] }
+  - { name: 'Review has not been updated since product is not found', translations: [{ code: 'ru', label: 'Отзыв не изменен, так как товар не найден' }] }
+  - { name: 'Reviewer', translations: [{ code: 'ru', label: 'Автор' }] }
+  - { name: 'Rating', translations: [{ code: 'ru', label: 'Рейтинг' }] }
+  - { name: 'Unknown', translations: [{ code: 'ru', label: 'Не задано' }] }
+  - { name: 'Product, SKU or customer info', translations: [{ code: 'ru', label: 'Имя товара, его код или данные клиента' }] }
+  - { name: 'Approve', translations: [{ code: 'ru', label: 'Одобрить' }] }
+  - { name: 'Start typing product name or SKU', translations: [{ code: 'ru', label: 'Начните вводить имя товара или его код' }] }
+  - { name: 'Customer name', translations: [{ code: 'ru', label: 'Имя пользователя' }] }
+  - { name: 'Start typing customer email', translations: [{ code: 'ru', label: 'Начните вводить email пользователя' }] }
+  - { name: 'Start typing customer name', translations: [{ code: 'ru', label: 'Начните вводить имя пользователя' }] }
+  - { name: 'Text of review', translations: [{ code: 'ru', label: 'Отзыв' }] }
+  - { name: 'Published', translations: [{ code: 'ru', label: 'Опубликовано' }] }
+  - { name: 'Pending', translations: [{ code: 'ru', label: 'Ожидает модерации' }] }
+  - { name: 'Please sign in to add review', translations: [{ code: 'ru', label: 'Войдите в систему, чтобы добавить отзыв' }] }
+  - { name: 'You have already reviewed this product', translations: [{ code: 'ru', label: 'Вы уже добавляли отзыв для данного товара' }] }
+  - { name: 'Edit your review', translations: [{ code: 'ru', label: 'Измените отзыв' }] }
+  - { name: 'Add your own review', translations: [{ code: 'ru', label: 'Добавьте отзыв' }] }
+  - { name: 'Thank your for sharing your opinion with us!', translations: [{ code: 'ru', label: 'Спасибо, что поделились Вашим мнением!' }] }
+  - { name: 'Your product rating is saved. Thank you!', translations: [{ code: 'ru', label: 'Оценка для товара сохранена. Спасибо!' }] }
+  - { name: 'Your review has been updated. Thank your for sharing your opinion with us!', translations: [{ code: 'ru', label: 'Отзыв изменен. Спасибо, что поделились Вашим мнением!' }] }
+  - { name: 'Rating of votes', translations: [{ code: 'ru', label: 'Оценка' }] }
+  - { name: 'customers', translations: [{ code: 'ru', label: 'пользователей' }] }
+  - { name: 'Average rating', translations: [{ code: 'ru', label: 'Средняя оценка' }] }
+  - { name: 'out of', translations: [{ code: 'ru', label: 'из' }] }
+  - { name: 'Based on', translations: [{ code: 'ru', label: 'Основано на' }] }
+  - { name: 'votes', translations: [{ code: 'ru', label: 'голосах' }] }
+  - { name: 'Your email', translations: [{ code: 'ru', label: 'Ваш email' }] }
+  - { name: 'Reviews', translations: [{ code: 'ru', label: 'Отзывы' }] }
+  - { name: 'X reviews', translations: [{ code: 'ru', label: 'Отзывы: {{count}}' }] }
+  - { name: 'We use this email in case we need additional information on your review. We do not use it for any kind of mailing lists or spam subscriptions', translations: [{ code: 'ru', label: 'Мы используем данный адрес электронной почты только для связи с Вами - в случае, если нам потребуется уточнить какую-либо информацию касательно вашего отзыва. Мы гарантируем, что данный адрес не будет передан третьим лицам и использован для рекламных рассылок, специальных предложений, акций или любых других подобных действий.' }] }
+  - { name: 'How do you rate this item?', translations: [{ code: 'ru', label: 'Оцените данный товар' }] }
+  - { name: 'Write your review', translations: [{ code: 'ru', label: 'Оставьте отзыв' }] }
+  - { name: 'Your review', translations: [{ code: 'ru', label: 'Отзыв' }] }
+  - { name: 'There are no reviews for this product yet', translations: [{ code: 'ru', label: 'На данный товар пока нет отзывов' }] }
+  - { name: 'Back to product details', translations: [{ code: 'ru', label: 'Вернуться на страницу описания товара' }] }
+  - { name: 'Customer reviews', translations: [{ code: 'ru', label: 'Отзывы пользователей' }] }
+  - { name: 'On moderation', translations: [{ code: 'ru', label: 'Проходит модерацию' }] }
+  - { name: 'Read all reviews about the product', translations: [{ code: 'ru', label: 'Прочитать все отзывы о товаре' }] }

@@ -1,0 +1,29 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (FR)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  directives: { addModel: 'XLite\Model\LanguageLabelTranslation' }
+  - { name: 'Compare X products', translations: [{ code: ru, label: 'Compare {{count}} products' }] }
+  - { name: 'X products selected', translations: [{ code: ru, label: 'Выбрано {{count}} товар(ов)' }] }
+  - { name: 'Comparison table - X items', translations: [{ code: ru, label: 'Таблица для сравнения — {{count}} товар(ов)' }] }
+  - { name: 'X in cart', translations: [{ code: ru, label: 'Товаров в карте: {{count}}' }] }
+  - { name: 'Add other products to compare', translations: [{ code: ru, label: 'Добавьте для сравнения другие товары' }] }
+  - { name: 'Compare', translations: [{ code: ru, label: 'Сравните' }] }
+  - { name: 'Clear list', translations: [{ code: ru, label: 'Очистить список' }] }
+  - { name: 'Differences only', translations: [{ code: ru, label: 'Оставить только отличия' }] }
+  - { name: 'Add to compare', translations: [{ code: ru, label: 'Добавить для сравнения' }] }
+
+  - { name: 'Shopping options', translations: [{ code: ru, label: 'Поиск' }] }
+  - { name: 'Show products', translations: [{ code: ru, label: 'Показать' }] }
+  - { name: 'Reset filter', translations: [{ code: ru, label: 'Сбросить' }] }
+  - { name: 'No products matching your criteria found. Please try again with different parameters.', translations: [{ code: ru, label: 'Нет товаров удовлетворяющих выбранным условиям.' }] }
+  - { name: 'Show all products in this category', translations: [{ code: ru, label: 'Показать все товары в категории' }] }
+  - { name: 'Price range', translations: [{ code: ru, label: 'Цена' }] }
+  - { name: 'In stock only', translations: [{ code: ru, label: 'Только в наличии' }] }
+  

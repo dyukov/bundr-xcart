@@ -1,0 +1,367 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: account_number
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: FedEx account number
+  - name: meter_number
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: FedEx meter number
+  - name: key
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: FedEx authentication key
+  - name: password
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: FedEx authentication password
+  - name: test_mode
+    category: CDev\FedEx
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Test mode
+  - name: debug_enabled 
+    category: CDev\FedEx
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Enable debugging
+  - name: fdxe
+    category: CDev\FedEx
+    type: checkbox
+    translations:
+      - code: en
+        option_name: FDXE Carrier type
+  - name: fdxg
+    category: CDev\FedEx
+    type: checkbox
+    translations:
+      - code: en
+        option_name: FDXG Carrier type
+  - name: fxsp
+    category: CDev\FedEx
+    type: checkbox
+    translations:
+      - code: en
+        option_name: FXSP Carrier type
+  - name: packaging
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: Packaging
+  - name: dropoff_type
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: Dropoff type
+  - name: ship_date
+    category: CDev\FedEx
+    value: 0
+    translations:
+      - code: en
+        option_name: Ship date (days)
+  - name: currency_code
+    category: CDev\FedEx
+    value: 0
+    translations:
+      - code: en
+        option_name: Currency code
+  - name: currency_rate
+    category: CDev\FedEx
+    value: 1
+    translations:
+      - code: en
+        option_name: Currency rate
+        option_comment: (Currency conversion rate from currency specified in FedEx settings to the store currency)
+  - name: dim_length
+    category: CDev\FedEx
+    value: 10
+    translations:
+      - code: en
+        option_name: Length
+  - name: dim_width
+    category: CDev\FedEx
+    value: 10
+    translations:
+      - code: en
+        option_name: Width
+  - name: dim_height
+    category: CDev\FedEx
+    value: 10
+    translations:
+      - code: en
+        option_name: Height
+  - name: cod_type
+    category: CDev\FedEx
+    value: ANY
+    translations:
+      - code: en
+        option_name: COD type
+  - name: send_insured_value
+    category: CDev\FedEx
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Send package cost to calculate insurance
+  - name: dg_accessibility
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: Dangerous Goods/Accessibility
+  - name: signature
+    category: CDev\FedEx
+    translations:
+      - code: en
+        option_name: Signature option
+  - name: opt_residential_delivery
+    category: CDev\FedEx
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Shipment from residential address
+  - name: opt_saturday_pickup
+    category: CDev\FedEx
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Saturday pickup
+  - name: max_weight
+    category: CDev\FedEx
+    value: 70
+    translations:
+      - code: en
+        option_name: Maximum package weight
+
+XLite\Model\Shipping\Method:
+  - processor: fedex
+    carrier: fedex
+    code: EUROPE_FIRST_INTERNATIONAL_PRIORITY
+    enabled: 1
+    position: 240
+    translations:
+      - code: en
+        name: "FedEx Europe First International Priority"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_1_DAY_FREIGHT
+    enabled: 1
+    position: 250
+    translations:
+      - code: en
+        name: "FedEx 1Day<sup>&reg;</sup> Freight"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_2_DAY
+    enabled: 1
+    position: 260
+    translations:
+      - code: en
+        name: "FedEx 2Day<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_2_DAY_AM
+    enabled: 1
+    position: 270
+    translations:
+      - code: en
+        name: "FedEx 2Day AM<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_2_DAY_FREIGHT
+    enabled: 1
+    position: 280
+    translations:
+      - code: en
+        name: "FedEx 2Day<sup>&reg;</sup> Freight"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_3_DAY_FREIGHT
+    enabled: 1
+    position: 290
+    translations:
+      - code: en
+        name: "FedEx 3Day<sup>&reg;</sup> Freight"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_EXPRESS_SAVER
+    enabled: 1
+    position: 300
+    translations:
+      - code: en
+        name: "FedEx Express Saver<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_FIRST_FREIGHT
+    enabled: 1
+    position: 310
+    translations:
+      - code: en
+        name: "FedEx First Freight<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: FEDEX_GROUND
+    enabled: 1
+    position: 320
+    translations:
+      - code: en
+        name: "FedEx Ground<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: FIRST_OVERNIGHT
+    enabled: 1
+    position: 330
+    translations:
+      - code: en
+        name: "FedEx First Overnight<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: GROUND_HOME_DELIVERY
+    enabled: 1
+    position: 340
+    translations:
+      - code: en
+        name: "FedEx Home Delivery<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_DISTRIBUTION_FREIGHT
+    enabled: 1
+    position: 350
+    translations:
+      - code: en
+        name: "FedEx International Distribution<sup>&reg;</sup> Freight"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_ECONOMY
+    enabled: 1
+    position: 360
+    translations:
+      - code: en
+        name: "FedEx International Economy<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_ECONOMY_DISTRIBUTION
+    enabled: 1
+    position: 370
+    translations:
+      - code: en
+        name: "FedEx International Economy Distribution<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_ECONOMY_FREIGHT
+    enabled: 1
+    position: 380
+    translations:
+      - code: en
+        name: "FedEx International Economy<sup>&reg;</sup> Freight"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_FIRST
+    enabled: 1
+    position: 390
+    translations:
+      - code: en
+        name: "FedEx International First<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_PRIORITY
+    enabled: 1
+    position: 400
+    translations:
+      - code: en
+        name: "FedEx International Priority<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_PRIORITY_DISTRIBUTION
+    enabled: 1
+    position: 410
+    translations:
+      - code: en
+        name: "FedEx International Priority<sup>&reg;</sup> Distribution"
+  - processor: fedex
+    carrier: fedex
+    code: INTERNATIONAL_PRIORITY_FREIGHT
+    enabled: 1
+    position: 420
+    translations:
+      - code: en
+        name: "FedEx International Priority Freight<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: PRIORITY_OVERNIGHT
+    enabled: 1
+    position: 430
+    translations:
+      - code: en
+        name: "FedEx Priority Overnight<sup>&reg;</sup>"
+  - processor: fedex
+    carrier: fedex
+    code: SMART_POST
+    enabled: 1
+    position: 440
+    translations:
+      - code: en
+        name: "FedEx SmartPost<sup>&reg;</sup>/FedEx SmartPost<sup>&reg;</sup> International"
+  - processor: fedex
+    carrier: fedex
+    code: STANDARD_OVERNIGHT
+    enabled: 1
+    position: 450
+    translations:
+      - code: en
+        name: "FedEx Standard Overnight<sup>&reg;</sup>"
+
+XLite\Model\Payment\Method:
+  - service_name: COD_FEDEX
+    class: 'Module\CDev\FedEx\Model\Payment\Processor\COD'
+    added: 1
+    translations:
+      - code: en
+        name: 'Cash on Delivery (FedEx)'
+
+\XLite\Model\LanguageLabel:
+  - { name: "FedEx module allows to use online shipping rates calculation via FedEx.", translations: [{ code: en, label: "FedEx module allows you to use online shipping rates calculation via FedEx." }] }
+  - { name: "Test FedEx rates calculation", translations: [{ code: en, label: "Test FedEx rates calculation" }] }
+  - { name: "FedEx settings", translations: [{ code: en, label: "FedEx settings" }] }
+  - { name: "FedEx authentication key", translations: [{ code: en, label: "FedEx authentication key" }] }
+  - { name: "FedEx authentication password", translations: [{ code: en, label: "FedEx authentication password" }] }
+  - { name: "FedEx account number", translations: [{ code: en, label: "FedEx account number" }] }
+  - { name: "FedEx meter number", translations: [{ code: en, label: "FedEx meter number" }] }
+  - { name: "Enable debugging", translations: [{ code: en, label: "Enable debugging" }] }
+  - { name: "Carrier type(s)", translations: [{ code: en, label: "Carrier type(s)" }] }
+  - { name: "FedEx Express (FDXE)", translations: [{ code: en, label: "FedEx Express (FDXE)" }] }
+  - { name: "FedEx Ground (FDXG)", translations: [{ code: en, label: "FedEx Ground (FDXG)" }] }
+  - { name: "FedEx SmartPost (FXSP)", translations: [{ code: en, label: "FedEx SmartPost (FXSP)" }] }
+  - { name: "Dropoff type", translations: [{ code: en, label: "Dropoff type" }] }
+  - { name: "Ship date (days)", translations: [{ code: en, label: "Ship date (days)" }] }
+  - { name: "Currency code", translations: [{ code: en, label: "Currency code" }] }
+  - { name: "If the currency specified above differs from the currency which the store uses for payments you need to specify the conversion rate to convert the shipping cost returned by FedEx into the necessary currency. Otherwise leave 1.", translations: [{ code: en, label: "If the currency specified above differs from the currency the store uses for payments, specify a conversion rate to convert the shipping cost returned by FedEx into your store's currency. If the currencies are the same, leave this set to 1." }] }
+  - { name: "Special services", translations: [{ code: en, label: "Special services" }] }
+  - { name: "Dangerous Goods/Accessibility", translations: [{ code: en, label: "Dangerous Goods/Accessibility" }] }
+  - { name: "Signature option", translations: [{ code: en, label: "Signature option" }] }
+  - { name: "COD is enabled", translations: [{ code: en, label: "COD is enabled" }] }
+  - { name: "COD is disabled", translations: [{ code: en, label: "COD is disabled" }] }
+  - { name: "C.O.D. type", translations: [{ code: en, label: "C.O.D. type" }] }
+  - { name: "Advanced option", translations: [{ code: en, label: "Advanced option" }] }
+  - { name: "Shipment is scheduled for Saturday pickup (option will be used if ship date is Saturday)", translations: [{ code: en, label: "Shipment is scheduled for Saturday pickup (the option will be used if ship date is Saturday)" }] }
+  - { name: "Shipment is from residential address", translations: [{ code: en, label: "Shipment is from a residential address" }] }
+  - { name: "Send package cost to calculate insurances", translations: [{ code: en, label: "Send package cost to calculate insurance" }] }
+  - { name: "FedEx Settings", translations: [{ code: en, label: "FedEx Settings" }] }

@@ -1,0 +1,23 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Payment\Method:
+  - service_name: 'Visa QIWI Wallet'
+    settings:
+      - name: shopId
+      - name: appId
+      - name: appPassword
+      - name: pullPassword
+XLite\Model\LanguageLabel:
+  directives: { addModel: 'XLite\Model\LanguageLabelTranslation' }
+  - { name: 'Shop id', translations: [{ code: 'en', label: 'Shop id' }, { code: 'ru', label: 'Идентификатор магазина' }] }
+  - { name: 'API ID', translations: [{ code: 'en', label: 'API ID' }, { code: 'ru', label: 'Идентификатор пользователя (API ID)' }] }
+  - { name: 'API password', translations: [{ code: 'en', label: 'API password' }, { code: 'ru', label: 'Пароль' }] }
+  - { name: 'Pull password', translations: [{ code: 'en', label: 'Pull password' }, { code: 'ru', label: 'Пароль Pull-оповещения' }] }
+

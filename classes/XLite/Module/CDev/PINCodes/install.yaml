@@ -1,0 +1,38 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data dump
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Quantity in stock", translations: [{ code: en, label: "Quantity in stock" }] }
+  - { name: "Sold", translations: [{ code: en, label: "Sold" }] }
+  - { name: "X PIN code duplicates ignored.", translations: [{ code: en, label: "{{count}} PIN code duplicates ignored." }] }
+  - { name: "X PIN codes created successfully.", translations: [{ code: en, label: "{{count}} PIN codes created successfully." }] }
+  - { name: "X PIN codes longer than Y characters ignored.", translations: [{ code: en, label: "{{count}} PIN codes longer than {{max}} characters ignored." }] }
+  - { name: "Could not assign X PIN codes to order #Y.", translations: [{ code: en, label: "Could not assign {{count}} PIN codes to order #{{orderId}}." }] }
+  - { name: "No valid code found.", translations: [{ code: en, label: "No valid code found." }] }
+  - { name: "PIN codes are generated automatically", translations: [{ code: en, label: "PIN codes are generated automatically" }] }
+  - { name: "PIN codes are defined manually", translations: [{ code: en, label: "PIN codes are defined manually" }] }
+  - { name: "PIN", translations: [{ code: en, label: "PIN" }] }
+  - { name: "Can not be disabled for products with manually defined PIN codes", translations: [{ code: en, label: "Cannot be disabled for products with manually defined PIN codes" }] }
+  - { name: "PIN codes enabled", translations: [{ code: en, label: "PIN codes enabled" }] }
+  - { name: "Cannot remove a sold PIN code", translations: [{ code: en, label: "Cannot remove a sold PIN code" }] }
+  - { name: "Sold PINs", translations: [{ code: en, label: "Sold PINs" }] }
+  - { name: "Remaining PINs", translations: [{ code: en, label: "Remaining PINs" }] }
+  - { name: "Order deleted", translations: [{ code: en, label: "Order deleted" }] }
+  - { name: "Please, type in the new PIN codes one per line.", translations: [{ code: en, label: "Please type in the new PIN codes one per line. PIN codes max length is 64 characters." }] }
+  - { name: "Quantity in stock is determined by the amount of the remaining PIN codes.", translations: [{ code: en, label: "Quantity in stock is determined by the amount of the remaining PIN codes defined on the PIN codes management page." }] }
+  - { name: "You will be able to add pin codes after saving changes.", translations: [{ code: en, label: "You will be able to add pin codes after saving changes." }] }
+  - { name: "No PIN codes found.", translations: [{ code: en, label: "No PIN codes found." }] }
+  - { name: "Quantity in stock is determined by the amount of the remaining PIN codes", translations: [{ code: en, label: "Quantity in stock is determined by the amount of the remaining PIN codes" }] }
+  - { name: "Could not assign PIN codes to the following products:", translations: [{ code: en, label: "Could not assign PIN codes to the following products:" }] }
+  - { name: "X PIN Codes were not assigned.", translations: [{ code: en, label: "{{count}} PIN Codes were not assigned." }] }
+  - { name: "No pin codes are bought yet", translations: [{ code: en, label: "No pin codes have been bought yet" }] }
+  - { name: "PIN codes data have been successfully updated", translations: [{ code: en, label: "PIN codes data has been successfully updated" }] }
+  - { name: "Unknown error occurred", translations: [{ code: en, label: "Unknown error occurred" }] }
+  - { name: "PIN code", translations: [{ code: en, label: "PIN code" }] }
+  - { name: "PIN codes", translations: [{ code: en, label: "PIN codes" }] }

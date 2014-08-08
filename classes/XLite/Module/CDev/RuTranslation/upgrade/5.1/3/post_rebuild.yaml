@@ -1,0 +1,13 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (RU)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  directives: { addModel: 'XLite\Model\ConfigTranslation' }
+  - { name: 'cart_ttl', category: 'General', translations: [{ code: 'ru', option_name: 'Срок жизни корзин (в днях)', option_comment: 'Срок (в днях), по истечении которого удаляются старые корзины. Если указанное значение пустое, корзины не будут удаляться.' }] }
+  - { name: 'internal_cron_enabled', category: 'General', translations: [{ code: 'ru', option_name: 'Включить планировщик', option_comment: "Планировщик выполняет периодические служебные задачи, например, удаление просроченных корзин пользователей." }] }

@@ -1,0 +1,43 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Payment\Method:
+  - service_name: 'Robokassa'
+    class: 'Module\XC\Robokassa\Model\Payment\Processor\Robokassa'
+    type: 'N'
+    added: true
+    translations:
+      - code: en
+        name: 'Robokassa'
+    settings:
+      - name: login
+      - name: password1
+      - name: password2
+      - name: language
+        value: ru
+      - name: currency
+        value: Qiwi29OceanR
+      - name: mode
+        value: test
+      - name: prefix
+        value: xcart
+
+XLite\Model\LanguageLabel:
+  directives: { addModel: 'XLite\Model\LanguageLabelTranslation' }
+  - name: 'To complete Robokassa payment system integration configuration'
+    translations:
+      - code: 'en'
+        label: 'To setup Robokassa in you online store, follow the steps below:<ol style="padding-left: 20px; list-style-type: decimal;"><li>Make sure you have a valid merchant account with <a target="_blank" href="https://partner.robokassa.ru/?culture=en">Robokassa</a> or <a target="_blank" href="https://partner.robokassa.ru/Reg/Register?culture=en">register</a> a new one.</li><li>Fill in the fields below using the data from Web Merchant Interface.</li></ol>'
+      - code: 'ru'
+        label: 'Для настройки платежного метода Robokassa:<ol style="padding-left: 20px; list-style-type: decimal;"><li>Убедитесь, что у вас есть аккаунт в <a target="_blank" href="https://partner.robokassa.ru/?culture=ru">Robokassa</a> или <a target="_blank" href="https://partner.robokassa.ru/Reg/Register?culture=ru">зарегистрируйте</a> новый аккаунт.</li><li>Введите параметры платежной системы в соответствии с настройками в Вашем личном кабинете.</li></ol>'
+  - { name: 'Test/Live mode', translations: [{ code: 'en', label: 'Test/Live mode' }, { code: 'ru', label: 'Тестовый/Живой режим' }] }
+  - { name: 'Merchant login', translations: [{ code: 'en', label: 'Merchant login' }, { code: 'ru', label: 'Логин продавца' }] }
+  - { name: 'Response type', translations: [{ code: 'en', label: 'Response type' }, { code: 'ru', label: 'Тип ответа сервера' }] }
+  - { name: 'Password 1', translations: [{ code: 'en', label: 'Password 1' }, { code: 'ru', label: 'Пароль 1' }] }
+  - { name: 'Password 2', translations: [{ code: 'en', label: 'Password 2' }, { code: 'ru', label: 'Пароль 2' }] }

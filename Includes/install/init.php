@@ -1,0 +1,58 @@
+<?php
+// vim: set ts=4 sw=4 sts=4 et:
+
+/**
+ * X-Cart
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the software license agreement
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.x-cart.com/license-agreement.html
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to licensing@x-cart.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not modify this file if you wish to upgrade X-Cart to newer versions
+ * in the future. If you wish to customize X-Cart for your needs please
+ * refer to http://www.x-cart.com/ for more information.
+ *
+ * @category  X-Cart 5
+ * @author    Qualiteam software Ltd <info@x-cart.com>
+ * @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+ * @link      http://www.x-cart.com/
+ */
+
+
+/**
+ * Initialization of X-Cart installation
+ */
+
+if (!defined('XLITE_INSTALL_MODE')) {
+    die('Incorrect call of the script. Stopping.');
+}
+
+if (version_compare(phpversion(), '5.3.0') >= 0) {
+    error_reporting(E_ALL ^ E_DEPRECATED);
+
+} else {
+    die('X-Cart 5 cannot start on PHP version earlier than 5.3.0 (' . phpversion(). ' is currently used)');
+}
+
+ini_set('display_errors', true);
+ini_set('display_startup_errors', true);
+
+@set_time_limit(300);
+
+umask(0);
+
+require_once realpath(dirname(__FILE__) . '/../..') . '/top.inc.php';
+
+require_once constant('LC_DIR_ROOT') . 'Includes/install/install_settings.php';
+
+// suphp mode
+define('LC_SUPHP_MODE', get_php_execution_mode());

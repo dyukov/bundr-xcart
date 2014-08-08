@@ -1,0 +1,120 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data for upgrading X-Payments Connector module 5.1.1 -> 5.1.2
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+
+XLite\Model\Config:
+  - name: xpc_api_version
+    category: 'CDev\XPaymentsConnector'
+    type: 'hidden'
+    orderby: 1080
+    value: '1.3'
+    translations:
+      - code: en
+        option_name: 'API version compatibility'
+  - name: xpc_zero_auth_method_id
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\Module\CDev\XPaymentsConnector\View\FormField\Select\ZeroAuthPaymentMethods'
+    orderby: 1100
+    value: 0
+    translations:
+      - code: en
+        option_name: 'Payment method for zero-dollar authorization'
+  - name: xpc_zero_auth_amount
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\Module\CDev\XPaymentsConnector\View\FormField\Input\Text\ZeroAuthAmount'
+    orderby: 1110
+    value: 0.00
+    translations:
+      - code: en
+        option_name: 'Amount for zero-dollar authorization'
+        option_comment: 'Which amount should be authorized on card. Recommended 0.00, 0.01 or 1.00. Note: if you chose 0.00 make sure the payment gateway supports such authorization'
+  - name: xpc_zero_auth_decline_period
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\Module\CDev\XPaymentsConnector\View\FormField\Input\Text\ZeroAuthDeclinePeriod'
+    orderby: 1120
+    value: 0
+    translations:
+      - code: en
+        option_name: 'Authorization period, days'
+        option_comment: 'After this period the authorization will be vooided/declined. Note: payment gateways usualy decline authorizations automatically after 30 days.'
+  - name: xpc_zero_auth_description
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\Module\CDev\XPaymentsConnector\View\FormField\Input\Text\ZeroAuthDescription'
+    orderby: 1130
+    value: ''
+    translations:
+      - code: en
+        option_name: 'Description zero-dollar authorization'
+        option_comment: 'Description of zero-dollar authorization. It`s sent to the payment gateway and can be seen by you and your customers thru the bank receipt.'
+
+  - name: xpc_status_new
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1210
+    value: 1
+    translations:
+      - code: en
+        option_name: 'New payment status'
+        option_comment: 'New payment status'
+  - name: xpc_status_auth
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1220
+    value: 2
+    translations:
+      - code: en
+        option_name: 'Auth payment status'
+        option_comment: 'Auth payment status'
+  - name: xpc_status_charged
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1230
+    value: 4
+    translations:
+      - code: en
+        option_name: 'Charged payment status'
+        option_comment: 'Charged payment status'
+  - name: xpc_status_charged_part
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1240
+    value: 3
+    translations:
+      - code: en
+        option_name: 'Partially captured payment status'
+        option_comment: 'Partially captured payment status'
+  - name: xpc_status_declined
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1250
+    value: 5
+    translations:
+      - code: en
+        option_name: 'Declined payment status'
+        option_comment: 'Declined payment status'
+  - name: xpc_status_refunded
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1260
+    value: 7
+    translations:
+      - code: en
+        option_name: 'Refunded payment status'
+        option_comment: 'Refunded payment status'
+  - name: xpc_status_refunded_part
+    category: 'CDev\XPaymentsConnector'
+    type: 'XLite\View\FormField\Select\OrderStatus\Payment'
+    orderby: 1270
+    value: 7
+    translations:
+      - code: en
+        option_name: 'Partially refunded payment status'
+        option_comment: 'Partially refunded payment status'
+
+

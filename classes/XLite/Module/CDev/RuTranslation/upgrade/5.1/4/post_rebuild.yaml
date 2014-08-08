@@ -1,0 +1,14 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Don't have account yet? Sign up for SagePay now!", translations: [{ code: ru, label: "У Вас еще нет акаунта? <a href=\"https://support.sagepay.com/apply/default.aspx?PartnerID=BB1670B8-01B0-42D3-8AEC-6AF423BE26E7\">Зарегестрируйтесь</a> на SagePay сейчас!" }] }
+  - { name: 'States information has been successfully deleted', translations: [{ code: ru, label: 'Штаты были успешно удалены' }] }
+  - { name: 'Please select the states first', translations: [{ code: ru, label: 'Выберите штаты для удаления' }] }
+

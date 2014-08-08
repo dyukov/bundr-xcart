@@ -1,0 +1,131 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: max_weight
+    category: XC\EMS
+    value: 31.5
+    translations:
+      - code: en
+        option_name: Package maximum weight (kg)
+  - name: intl_package_type
+    category: XC\EMS
+    value: att
+    translations:
+      - code: en
+        option_name: Type of the international packages
+
+XLite\Model\LanguageLabel:
+  - { name: 'Common options', translations: [{ code: 'ru', label: 'Общие параметры' }] }
+  - { name: 'Documents (Max. 2 kg)', translations: [{ code: en, label: 'Documents (Max. 2 kg)' }, { code: 'ru', label: 'Документы (макс. 2 кг)' }] }
+  - { name: 'EMS module allows to use online shipping rates calculation via EMS.', translations: [{ code: en, label: 'EMS module allows to use online shipping rates calculation via EMS.' }, { code: 'ru', label: 'Модуль EMS Russian Post позволяет расчитывать стоимость доставки в реальном времени.' }] }
+  - { name: 'EMS settings', translations: [{ code: en, label: 'EMS settings' }, { code: 'ru', label: 'Параметры EMS' }] }
+  - { name: 'Package maximum weight (kg)', translations: [{ code: en, label: 'Package maximum weight (kg)' }, { code: 'ru', label: 'Максимальный вес посылки (кг)' }] }
+  - { name: 'Please note that rates are calculated for shipping from Russian locations only.', translations: [{ code: en, label: 'Please note that rates are calculated for shipping from Russian locations only.' }, { code: 'ru', label: 'Обратите внимание, что стоимость доставки рассчитывается только при доставке из России.' }] }
+  - { name: 'Test EMS rates calculation', translations: [{ code: en, label: 'Test EMS rates calculation' }, { code: 'ru', label: 'Проверить расчет стоимости доставки EMS' }] }
+  - { name: 'Type of the international packages', translations: [{ code: en, label: 'Type of the international packages' }, { code: 'ru', label: 'Тип международных посылок' }] }
+  - { name: "EMS Russian Post", translations: [{ code: en, label: EMS Russian Post }, { code: ru, label: "EMS Почта России" }] }
+
+XLite\Model\Shipping\Method:
+  - processor: ems
+    carrier: ems
+    code: EMS
+    enabled: 1
+    position: 10
+    translations:
+      - code: en
+        name: "EMS Russian Post"
+      - code: ru
+        name: "Доставка EMS Почта России"
+
+XLite\Model\State:
+  - { state: Адыгея Республика, code: region--respublika-adygeja, country: {code: RU} }
+  - { state: Алтай Республика, code: region--respublika-altaj, country: {code: RU} };
+  - { state: Алтайский Край, code: region--altajskij-kraj, country: {code: RU} };
+  - { state: Амурская Область, code: region--amurskaja-oblast, country: {code: RU} };
+  - { state: Архангельская Область, code: region--arhangelskaja-oblast, country: {code: RU} };
+  - { state: Астраханская Область, code: region--astrahanskaja-oblast, country: {code: RU} };
+  - { state: Башкортостан Республика, code: region--respublika-bashkortostan, country: {code: RU} };
+  - { state: Белгородская Область, code: region--belgorodskaja-oblast, country: {code: RU} };
+  - { state: Брянская Область, code: region--brjanskaja-oblast, country: {code: RU} };
+  - { state: Бурятия Республика, code: region--respublika-burjatija, country: {code: RU} };
+  - { state: Владимирская Область, code: region--vladimirskaja-oblast, country: {code: RU} };
+  - { state: Волгоградская Область, code: region--volgogradskaja-oblast, country: {code: RU} };
+  - { state: Вологодская Область, code: region--vologodskaja-oblast, country: {code: RU} };
+  - { state: Воронежская Область, code: region--voronezhskaja-oblast, country: {code: RU} };
+  - { state: Дагестан Республика, code: region--respublika-dagestan, country: {code: RU} };
+  - { state: Еврейская Автономная Область, code: region--evrejskaja-ao, country: {code: RU} };
+  - { state: Забайкальский Край, code: region--zabajkalskij-kraj, country: {code: RU} };
+  - { state: Ивановская Область, code: region--ivanovskaja-oblast, country: {code: RU} };
+  - { state: Ингушетия Республика, code: region--respublika-ingushetija, country: {code: RU} };
+  - { state: Иркутская Область, code: region--irkutskaja-oblast, country: {code: RU} };
+  - { state: Кабардино-Балкарская Республика, code: region--kabardino-balkarskaja-respublika, country: {code: RU} };
+  - { state: Калининградская Область, code: region--kaliningradskaja-oblast, country: {code: RU} };
+  - { state: Калмыкия Республика, code: region--respublika-kalmykija, country: {code: RU} };
+  - { state: Калужская Область, code: region--kaluzhskaja-oblast, country: {code: RU} };
+  - { state: Камчатский Край, code: region--kamchatskij-kraj, country: {code: RU} };
+  - { state: Карачаево-Черкесская Республика, code: region--karachaevo-cherkesskaja-respublika, country: {code: RU} };
+  - { state: Карелия Республика, code: region--respublika-karelija, country: {code: RU} };
+  - { state: Кемеровская Область, code: region--kemerovskaja-oblast, country: {code: RU} };
+  - { state: Кировская Область, code: region--kirovskaja-oblast, country: {code: RU} };
+  - { state: Коми Республика, code: region--respublika-komi, country: {code: RU} };
+  - { state: Костромская Область, code: region--kostromskaja-oblast, country: {code: RU} };
+  - { state: Краснодарский Край, code: region--krasnodarskij-kraj, country: {code: RU} };
+  - { state: Красноярский Край, code: region--krasnojarskij-kraj, country: {code: RU} };
+  - { state: Курганская Область, code: region--kurganskaja-oblast, country: {code: RU} };
+  - { state: Курская Область, code: region--kurskaja-oblast, country: {code: RU} };
+  - { state: Ленинградская Область, code: region--leningradskaja-oblast, country: {code: RU} };
+  - { state: Липецкая Область, code: region--lipeckaja-oblast, country: {code: RU} };
+  - { state: Магаданская Область, code: region--magadanskaja-oblast, country: {code: RU} };
+  - { state: Марий Эл Республика, code: region--respublika-marij-el, country: {code: RU} };
+  - { state: Мордовия Республика, code: region--respublika-mordovija, country: {code: RU} };
+  - { state: Московская Область, code: region--moskovskaja-oblast, country: {code: RU} };
+  - { state: Мурманская Область, code: region--murmanskaja-oblast, country: {code: RU} };
+  - { state: Ненецкий Автономный Округ, code: region--neneckij-ao, country: {code: RU} };
+  - { state: Нижегородская Область, code: region--nizhegorodskaja-oblast, country: {code: RU} };
+  - { state: Новгородская Область, code: region--novgorodskaja-oblast, country: {code: RU} };
+  - { state: Новосибирская Область, code: region--novosibirskaja-oblast, country: {code: RU} };
+  - { state: Норильский Промышленнный Район, code: 663300, country: {code: RU} };
+  - { state: Омская Область, code: region--omskaja-oblast, country: {code: RU} };
+  - { state: Оренбургская Область, code: region--orenburgskaja-oblast, country: {code: RU} };
+  - { state: Орловская Область, code: region--orlovskaja-oblast, country: {code: RU} };
+  - { state: Пензенская Область, code: region--penzenskaja-oblast, country: {code: RU} };
+  - { state: Пермский Край, code: region--permskij-kraj, country: {code: RU} };
+  - { state: Приморский Край, code: region--primorskij-kraj, country: {code: RU} };
+  - { state: Псковская Область, code: region--pskovskaja-oblast, country: {code: RU} };
+  - { state: Ростовская Область, code: region--rostovskaja-oblast, country: {code: RU} };
+  - { state: Рязанская Область, code: region--rjazanskaja-oblast, country: {code: RU} };
+  - { state: Самарская Область, code: region--samarskaja-oblast, country: {code: RU} };
+  - { state: Саратовская Область, code: region--saratovskaja-oblast, country: {code: RU} };
+  - { state: Саха (Якутия) Республика, code: region--respublika-saha-yakutija, country: {code: RU} };
+  - { state: Сахалинская Область, code: region--sahalinskaja-oblast, country: {code: RU} };
+  - { state: Свердловская Область, code: region--sverdlovskaja-oblast, country: {code: RU} };
+  - { state: Северная Осетия-Алания Республика, code: region--respublika-sev.osetija-alanija, country: {code: RU} };
+  - { state: Смоленская Область, code: region--smolenskaja-oblast, country: {code: RU} };
+  - { state: Ставропольский Край, code: region--stavropolskij-kraj, country: {code: RU} };
+  - { state: Таймырский Долгано-Ненецкий Район, code: region--tajmyrskij-ao, country: {code: RU} };
+  - { state: Тамбовская Область, code: region--tambovskaja-oblast, country: {code: RU} };
+  - { state: Татарстан Республика, code: region--respublika-tatarstan, country: {code: RU} };
+  - { state: Тверская Область, code: region--tverskaja-oblast, country: {code: RU} };
+  - { state: Томская Область, code: region--tomskaja-oblast, country: {code: RU} };
+  - { state: Тульская Область, code: region--tulskaja-oblast, country: {code: RU} };
+  - { state: Тыва Республика, code: region--respublika-tyva, country: {code: RU} };
+  - { state: Тюменская Область, code: region--tjumenskaja-oblast, country: {code: RU} };
+  - { state: Удмуртская Республика, code: region--udmurtskaja-respublika, country: {code: RU} };
+  - { state: Ульяновская Область, code: region--uljanovskaja-oblast, country: {code: RU} };
+  - { state: Хабаровский Край, code: region--khabarovskij-kraj, country: {code: RU} };
+  - { state: Хакасия Республика, code: region--respublika-khakasija, country: {code: RU} };
+  - { state: Ханты-Мансийский-Югра Автономный Округ, code: region--khanty-mansijskij-ao, country: {code: RU} };
+  - { state: Челябинская Область, code: region--cheljabinskaja-oblast, country: {code: RU} };
+  - { state: Чеченская Республика, code: region--chechenskaya-respublika, country: {code: RU} };
+  - { state: Чувашская Республика, code: region--chuvashskaja-respublika, country: {code: RU} };
+  - { state: Чукотский Автономный Округ, code: region--chukotskij-ao, country: {code: RU} };
+  - { state: Ямало-Ненецкий Автономный Округ, code: region--yamalo-neneckij-ao, country: {code: RU} };
+  - { state: Ярославская Область, code: region--yaroslavskaja-oblast, country: {code: RU} };
+  - { state: Казахстан, code: region--kazahstan, country: {code: RU} };

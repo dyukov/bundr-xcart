@@ -1,0 +1,16 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "PayPal ID / Email", translations: [{ code: en, label: "PayPal ID / Email" }] }
+  - { name: "Enter the email address associated with your PayPal account.", translations: [{ code: en, label: "Enter the email address associated with your PayPal account." }] }
+  - { name: "Enter description of the purchase that will be displayed on PayPal payment page.", translations: [{ code: en, label: "Enter a description of the purchase that will be displayed on the PayPal payment page." }] }
+  - { name: "You can define an order id prefix, which would precede each order number in your shop, to make it unique", translations: [{ code: en, label: "You can set an order id prefix that will be added to each order number in your shop to make it unique (each transaction id must be unique for a PayPal account). This option is relevant only if you share your PayPal account with other online shops" }] }
+  - { name: "IPN verification failed", translations: [{ code: en, label: "IPN verification failed" }] }
+  - { name: "IPN HTTP error", translations: [{ code: en, label: "IPN HTTP error" }] }

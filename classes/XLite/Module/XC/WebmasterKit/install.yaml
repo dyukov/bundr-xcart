@@ -1,0 +1,78 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: profilerEnabled
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 100
+    value: 0
+    translations:
+      - code: en
+        option_name: Profiler enabled
+  - name: processWidgets
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 200
+    value: 0
+    translations:
+      - code: en
+        option_name: Profiling widgets
+  - name: xdebugLogTrace
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 300
+    value: 0
+    translations:
+      - code: en
+        option_name: Save Xdebug trace log
+  - name: markTemplates
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 400
+    value: 0
+    translations:
+      - code: en
+        option_name: Mark templates
+  - name: showMessagesOnTop
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 500
+    value: 0
+    translations:
+      - code: en
+        option_name: Show profiling messages in window top panel
+  - name: separatorLog
+    category: XC\WebmasterKit
+    type: separator
+    orderby: 1000
+    value: 0
+    translations:
+      - code: en
+        option_name: Logging
+  - name: logMail
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 1100
+    value: 0
+    translations:
+      - code: en
+        option_name: Log mail messages
+  - name: logSQL
+    category: XC\WebmasterKit
+    type: checkbox
+    orderby: 1200
+    value: 0
+    translations:
+      - code: en
+        option_name: Log SQL queries
+  - { name: aggregate_css, category: Performance, type: checkbox, orderby: 20, value: N, translations: [{ code: en, option_name: 'Aggregate CSS files' }] }
+  - { name: aggregate_js, category: Performance, type: checkbox, orderby: 30, value: N, translations: [{ code: en, option_name: 'Aggregate JS files' }] }
+  - { name: use_view_cache, category: Performance, type: checkbox, orderby: 40, value: N, translations: [{ code: en, option_name: 'Use view cache' }] }
+

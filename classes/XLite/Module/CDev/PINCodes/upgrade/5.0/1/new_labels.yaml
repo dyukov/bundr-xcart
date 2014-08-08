@@ -1,0 +1,17 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Quantity in stock is determined by the amount of the remaining PIN codes", translations: [{ code: en, label: "Quantity in stock is determined by the amount of the remaining PIN codes" }] }
+  - { name: "Could not assign PIN codes to the following products:", translations: [{ code: en, label: "Could not assign PIN codes to the following products:" }] }
+  - { name: "X PIN Codes were not assigned.", translations: [{ code: en, label: "{{count}} PIN Codes were not assigned." }] }
+  - { name: "No pin codes are bought yet", translations: [{ code: en, label: "No pin codes have been bought yet" }] }
+  - { name: "PIN codes data have been successfully updated", translations: [{ code: en, label: "PIN codes data has been successfully updated" }] }
+  - { name: "Unknown error occurred", translations: [{ code: en, label: "Unknown error occurred" }] }
+  - { name: "PIN code", translations: [{ code: en, label: "PIN code" }] }

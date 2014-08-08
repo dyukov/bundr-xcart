@@ -1,0 +1,50 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data dump
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: ttl
+    category: CDev\Egoods
+    type: XLite\View\FormField\Input\Text\Integer
+    orderby: 100
+    value: 3
+    widgetParameters: { min: 0 }
+    translations:
+      - code: en
+        option_name: 'Download link TTL (days)'
+        option_comment: 'set zero for unlimited access'
+  - name: attempts_limit
+    category: CDev\Egoods
+    type: XLite\View\FormField\Input\Text\Integer
+    orderby: 200
+    value: 3
+    widgetParameters: { min: 0 }
+    translations:
+      - code: en
+        option_name: 'Downloads limit (per 1 ordered item)'
+        option_comment: 'set zero for unlimited access'
+
+XLite\Model\LanguageLabel:
+  - { name: "Your order processed. The files attached to the purchased products can be downloaded at", translations: [{ code: en, label: "Your order {{order_number}} has been processed. The files attached to the purchased products can be downloaded at" }] }
+  - { name: "Product removed", translations: [{ code: en, label: "Product removed" }] }
+  - { name: "Attachment removed", translations: [{ code: en, label: "Attachment removed" }] }
+  - { name: "Order is not processed", translations: [{ code: en, label: "Order has not yet been processed" }] }
+  - { name: "Expired by limit", translations: [{ code: en, label: "Expired: Downloads limit has been reached" }] }
+  - { name: "Downloads left", translations: [{ code: en, label: "Downloads left" }] }
+  - { name: "Expired by TTL", translations: [{ code: en, label: "Download TTL has expired" }] }
+  - { name: "Expires in", translations: [{ code: en, label: "Expires in" }] }
+  - { name: "Blocked by administrator", translations: [{ code: en, label: "Blocked by administrator" }] }
+  - { name: "Available for download", translations: [{ code: en, label: "Available for download" }] }
+  - { name: "Can be downloaded only after buying the product", translations: [{ code: en, label: "Can be downloaded only after buying the product" }] }
+  - { name: "Global eGood settings", translations: [{ code: en, label: "Global eGoods settings" }] }
+  - { name: "E-goods download links", translations: [{ code: en, label: "eGoods download links" }] }
+  - { name: "Download link is blocked", translations: [{ code: en, label: "Download link is blocked" }] }
+  - { name: "Download link did not found", translations: [{ code: en, label: "Download link has not been found" }] }
+  - { name: "Download link is not active", translations: [{ code: en, label: "Download link is not active" }] }
+  - { name: "Download link is renew", translations: [{ code: en, label: "Download link has been renewed" }] }
+  - { name: "less one hour", translations: [{ code: en, label: "less than one hour" }] }

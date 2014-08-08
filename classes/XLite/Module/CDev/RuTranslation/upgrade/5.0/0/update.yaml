@@ -1,0 +1,100 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (FR)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Language:
+  - { code: 'ru', module: 'CDev\RuTranslation' }
+
+XLite\Model\LanguageLabel:
+  - { name: 'modules', translations: [{ code: 'ru', label: 'дополнений' }] }
+  - { name: 'Installed', translations: [{ code: 'ru', label: 'Уже установлено' }] }
+  - { name: 'Alternatively, upload file sqldump.sql.php to the var/backup/ sub-directory click on the "Restore from server" button', translations: [{ code: 'ru', label: 'Альтернативный способ: загрузите файл с именем sqldump.sql.php в директорию var/backup/ (поддиректорию директории, в которой установлен X-Cart 5 на Веб-сервере) и нажмите "Восстановить с сервера". После того, как процесс восстановления завершен, можно удалить файл, нажав  "Удалить SQL файл".' }] }
+  - { name: 'Backup database', translations: [{ code: 'ru', label: 'Сохранить базу' }] }
+  - { name: 'Backup & Restore', translations: [{ code: 'ru', label: 'Резервное копирование и восстановление' }] }
+  - { name: 'How to restore your X-Cart 5 database', translations: [{ code: 'ru', label: 'Как восстановить базу данных X-Cart 5' }] }
+  - { name: 'If you don''t have a moneybookers account yet, please sign up for a free moneybookers account at: http://www.skrill.com', translations: [{ code: 'ru', label: 'Если у вас еще нет аккаунта moneybookers, пожалуйста создайте бесплатный аккаунт: http://www.skrill.com' }] }
+  - { name: 'Installed Modules', translations: [{ code: 'ru', label: 'Установленные дополнения' }] }
+  - { name: 'Skrill Quick Checkout enables you to take direct payment from credit cards, debit cards and over 60 other local payment options in over 200 countries as well as the Skrill eWallet.', translations: [{ code: 'ru', label: '<strong>Skrill Quick Checkout</strong> позваляет принимать платежи по кредитным, дебетовым картам и более чем 60 другими платежными средствами, в том числе Skrill eWallet, <strong>напрямую</strong> в более чем 200 странах. Мы предлагаем лучшие цены на обслуживание, проверте сами на нашем сайте Skrill <a href=\"http://www.skrill.com/app/help.pl?s=m_fees\">www.skrill.com</a>' }] }
+  - { name: 'No orders have been placed yet', translations: [{ code: 'ru', label: 'Нет заказов' }] }
+  - { name: 'This e-mail address is already in use by another user.', translations: [{ code: 'ru', label: 'Указанный email адрес уже используется другим пользователем.' }] }
+  - { name: 'Thank you for registering at X-Cart 5', translations: [{ code: 'ru', label: 'Спасибо за регистрацию в {{X-Cart 5}}' }] }
+  - { name: 'Thank you for using X-Cart 5 services', translations: [{ code: 'ru', label: 'Благодарим вас за то, что воспользовались услугами {{X-Cart 5}}' }] }
+  - { name: 'The module is not released for your X-Cart version', translations: [{ code: 'ru', label: 'Модуль доступен только для старых версий X-Cart' }] }
+  - { name: 'This is a demo store with powerful X-Cart 5 engine inside', translations: [{ code: 'ru', label: 'Это демонстрационный магазин, созданный на платформе X-Cart 5, основаной на технологии шаблонов PHP5, с интегрированной базой данных SQL.' }] }
+  - { name: 'To have access to the International payment network of Skrill please register here for a free account if you don''t have one yet.', translations: [{ code: 'ru', label: 'Для получения доступа к международной платежной сети Skrill, пожалуйста, зарегистрируйтесь <a href=\"{{url}}\">здесь</a> для получения бесплатного аккаунта, если у вас его еще нет.' }] }
+  - { name: 'To process your customers'' payments with Skrill, you need a Skrill account. If you do not have one yet, you can sign up for free at http://www.skrill.com', translations: [{ code: 'ru', label: 'Для обработки платежей клиентов через Skrill, вам необходимо зарегистрировать аккаунт в Skrill. Если у вас его еще нет, вы можете зарегистрироваться бесплатно на сайте http://www.skrill.com' }] }
+  - { name: 'To restore the images stored in the file system you have to copy them from the archive to the X-Cart 5 catalog', translations: [{ code: 'ru', label: 'Для восстановления изображений, хранящихся в файловой системе, необходимо скопировать их из архива в каталог X-Cart 5, принимая во внимание структуру каталога.' }] }
+  - { name: 'Updates for the X-Cart core and/or installed modules are available', translations: [{ code: 'ru', label: 'Доступны обновления для модулей и/или ядра X-Cart' }] }
+  - { name: 'Use a merchant account from your financial institution or choose a bundled payment solution to accept credit cards and other methods of payment on your website.', translations: [{ code: 'ru', label: 'Используйте ваш банковский счёт или выберите готовое решение для приема оплаты кредитными картами и другими возможными способами оплаты.' }] }
+  - { name: 'Visit module details page', translations: [{ code: 'ru', label: 'Описание модуля' }] }
+  - { name: 'Welcome to X-Cart 5', translations: [{ code: 'ru', label: 'Добро пожаловать в X-Cart 5' }] }
+  - { name: 'X module settings', translations: [{ code: 'ru', label: 'Параметры модуля: "{{name}}"' }] }
+  - { name: 'X-Cart 5', translations: [{ code: 'ru', label: 'X-Cart 5' }] }
+  - { name: 'X-Cart 5 core version', translations: [{ code: 'ru', label: 'Версия ядра X-Cart 5' }] }
+  - { name: 'X-Cart 5 online store builder', translations: [{ code: 'ru', label: 'Конструктор онлайн магазина X-Cart 5' }] }
+  - { name: 'X-Cart 5 shopping cart software', translations: [{ code: 'ru', label: 'Интернет-магазин на платформе X-Cart 5' }] }
+  - { name: 'X-Cart 5 version', translations: [{ code: 'ru', label: 'Версия X-Cart 5' }] }
+  - { name: 'You have sent a request for activation on the X.', translations: [{ code: 'ru', label: 'Вы отправили запрос на активацию {{date}}. Процесс проверки использования Skrill Quick Checkout может занять до 72 часов. Мы свяжемся с Вами, когда процесс проверки будет завершен. После активации Skrill вы получите доступ к новому разделу в своей учетной записи Skrill, который называется Merchant Tools. Пожалуйста, выберите секретное слово (должно отличаться от пароля) здесь, а также введите его в следующем разделе для соединения с Skrill. Секретное слово является последним шагом в процессе активации и надежно шифрует ваши платежи. После успешной активации вы сможете использовать всеми возможностями системы Skrill.' }] }
+  - { name: 'Enter OrderID or email', translations: [{ code: ru, label: 'Введите номер заказа или email' }] }
+  - { name: 'All Order Statuses', translations: [{ code: ru, label: 'Все статусы заказ' }] }
+  - { name: 'Enter date range', translations: [{ code: ru, label: 'Введите период дат' }] }
+  - { name: 'Authorized', translations: [{ code: ru, label: 'Авторизован' }] }
+  - { name: 'Shipped', translations: [{ code: ru, label: 'Доставлен' }] }
+  - { name: 'Canceled', translations: [{ code: ru, label: 'Отменеен' }] }
+  - { name: 'Expired', translations: [{ code: ru, label: 'Просрочен' }] }
+  - { name: 'Refund requested', translations: [{ code: ru, label: 'Запрошен возврат оплаты' }] }
+  - { name: 'Refunded', translations: [{ code: ru, label: 'Оплата возврашена' }] }
+  - { name: 'Partially refunded', translations: [{ code: ru, label: 'Оплата возврашена частично' }] }
+  - { name: 'Selected:', translations: [{ code: ru, label: 'Выбранные:' }] }
+  - { name: 'Days', translations: [{ code: ru, label: 'Дни' }] }
+  - { name: 'Close', translations: [{ code: ru, label: 'Закрыть' }] }
+  - { name: 'MO', translations: [{ code: ru, label: 'Пн' }] }
+  - { name: 'TU', translations: [{ code: ru, label: 'Вт' }] }
+  - { name: 'WE', translations: [{ code: ru, label: 'Ср' }] }
+  - { name: 'TH', translations: [{ code: ru, label: 'Чт' }] }
+  - { name: 'FR', translations: [{ code: ru, label: 'Пт' }] }
+  - { name: 'SA', translations: [{ code: ru, label: 'Сб' }] }
+  - { name: 'SU', translations: [{ code: ru, label: 'Вс' }] }
+  - { name: 'JANUARY', translations: [{ code: ru, label: 'Январь' }] }
+  - { name: 'FEBRUARY', translations: [{ code: ru, label: 'Февраль' }] }
+  - { name: 'MARCH', translations: [{ code: ru, label: 'Март' }] }
+  - { name: 'APRIL', translations: [{ code: ru, label: 'Апрель' }] }
+  - { name: 'MAY', translations: [{ code: ru, label: 'Май' }] }
+  - { name: 'JUNE', translations: [{ code: ru, label: 'Июнь' }] }
+  - { name: 'JULY', translations: [{ code: ru, label: 'Июль' }] }
+  - { name: 'AUGUST', translations: [{ code: ru, label: 'Август' }] }
+  - { name: 'SEPTEMBER', translations: [{ code: ru, label: 'Сентябрь' }] }
+  - { name: 'OCTOBER', translations: [{ code: ru, label: 'Октябрь' }] }
+  - { name: 'NOVEMBER', translations: [{ code: ru, label: 'Ноябрь' }] }
+  - { name: 'DECEMBER', translations: [{ code: ru, label: 'Декабрь' }] }
+  - { name: 'Shortcuts', translations: [{ code: ru, label: 'Ссылки' }] }
+  - { name: 'Past', translations: [{ code: ru, label: 'Прошедшие' }] }
+  - { name: '7days', translations: [{ code: ru, label: '7 дней' }] }
+  - { name: '14days', translations: [{ code: ru, label: '14 дней' }] }
+  - { name: '30days', translations: [{ code: ru, label: '30 дней' }] }
+  - { name: 'Previous', translations: [{ code: ru, label: 'Предыдущие' }] }
+  - { name: 'Week', translations: [{ code: ru, label: 'Неделя' }] }
+  - { name: 'Month', translations: [{ code: ru, label: 'Месяц' }] }
+  - { name: 'Quarter', translations: [{ code: ru, label: 'Квартал' }] }
+  - { name: 'Year', translations: [{ code: ru, label: 'Год' }] }
+  - { name: 'Date range should longer than %d days', translations: [{ code: ru, label: 'Период должен быть длинее %d дней' }] }
+  - { name: 'Date range should less than %d days', translations: [{ code: ru, label: 'Период должен быть короче %d дней' }] }
+  - { name: 'Please select a date range longer than %d days', translations: [{ code: ru, label: 'Пожалуйста, выберите период, длинее %d дней' }] }
+  - { name: 'Please select a date range less than %d days', translations: [{ code: ru, label: 'Пожалуйста, выберите период, короче %d дней' }] }
+  - { name: 'Please select a date range between %d and %d days', translations: [{ code: ru, label: 'Пожалуйста, выберите период от %d до %d дней' }] }
+  - { name: 'Please select a date range', translations: [{ code: ru, label: 'Пожалуйста, выберите период' }] }
+  - { name: 'Enter keyword', translations: [{ code: ru, label: 'Введите ключевое слово' }] }
+  - { name: 'All membership levels', translations: [{ code: ru, label: 'Все группы пользователей' }] }
+  - { name: 'No membership', translations: [{ code: ru, label: 'Нет группы пользователей' }] }
+  - { name: 'All User Types', translations: [{ code: ru, label: 'Все типы пользователей' }] }
+  - { name: 'Select one...', translations: [{ code: ru, label: 'Выберите ...' }] }
+  - { name: 'Please select one ...', translations: [{ code: ru, label: 'Выберите ...' }] }
+  - { name: 'Search keywords', translations: [{ code: ru, label: 'Ввыедите ключевое слово' }] }
+  - { name: 'Any category', translations: [{ code: ru, label: 'Любая категория' }] }
+  - { name: 'Any status', translations: [{ code: ru, label: 'Любой статус' }] }
+  - { name: 'Search in', translations: [{ code: ru, label: 'Искать в' }] }

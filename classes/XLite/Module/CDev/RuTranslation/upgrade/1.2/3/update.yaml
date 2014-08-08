@@ -1,0 +1,21 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (FR)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  directives: { addModel: 'XLite\Model\ConfigTranslation' }
+  - { name: 'notifs', category: 'Company', translations: [{ code: 'ru', option_name: 'Нотификации' }] }
+  - { name: 'enable_init_order_notif', category: 'Company', translations: [{ code: 'ru', option_name: 'Отправлять данные о заказе на E-mail отдела продаж, после размещения заказа' }] }
+  - { name: 'enable_init_order_notif_customer', category: 'Company', translations: [{ code: 'ru', option_name: 'Отправлять данные о заказе на E-mail клиента после размещения заказа' }] }
+
+XLite\Model\LanguageLabel:
+  directives: { addModel: 'XLite\Model\LanguageLabelTranslation' }
+  - { name: 'Cart & checkout', translations: [{ code: 'ru', label: 'Корзина & Оплата' }] }
+  - { name: 'Drop items here to shop', translations: [{ code: 'ru', label: 'Перетащите товар сюда' }] }
+  - { name: 'Importing will overwrite the existing product information. This operation cannot be undone.', translations: [{ code: 'ru', label: 'В процессе импорта информация о существующих товарах будет переписана. Эта операция необратима.' }] }
+

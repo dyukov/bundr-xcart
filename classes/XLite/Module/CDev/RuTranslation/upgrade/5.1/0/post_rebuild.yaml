@@ -1,0 +1,27 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (RU)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2013 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Order\Status\Payment:
+  directives: { addModel: 'XLite\Model\Order\Status\PaymentTranslation' }
+  - { code: Q, translations: [{ code: ru, name: 'Ожидается оплата', customerName: 'Ожидается оплата' }] }
+  - { code: A, translations: [{ code: ru, name: 'Зарезервировано', customerName: 'Средства зарезервированы' }] }
+  - { code: PP, translations: [{ code: ru, name: 'Частично оплачен', customerName: 'Частично оплачен' }] }
+  - { code: P, translations: [{ code: ru, name: 'Оплачен', customerName: 'Оплачен' }] }
+  - { code: D, translations: [{ code: ru, name: 'Платёж не принят', customerName: 'Платёж не принят' }] }
+  - { code: C, translations: [{ code: ru, name: 'Заказ отменен', customerName: 'Заказ отменен' }] }
+  - { code: R, translations: [{ code: ru, name: 'Возврат средств', customerName: 'Возврат средств' }] }
+
+XLite\Model\Order\Status\Shipping:
+  directives: { addModel: 'XLite\Model\Order\Status\ShippingTranslation' }
+  - { code: N, translations: [{ code: ru, name: 'Новый', customerName: 'Новый' }] }
+  - { code: P, translations: [{ code: ru, name: 'В обработке', customerName: 'В обработке' }] }
+  - { code: S, translations: [{ code: ru, name: 'Отослан', customerName: 'Отослан' }] }
+  - { code: D, translations: [{ code: ru, name: 'Доставлен', customerName: 'Доставлен' }] }
+  - { code: WND, translations: [{ code: ru, name: 'Доставка отменена', customerName: 'Доставка отменена' }] }
+  - { code: R, translations: [{ code: ru, name: 'Заказ возвращен', customerName: 'Заказ возвращен' }] }
